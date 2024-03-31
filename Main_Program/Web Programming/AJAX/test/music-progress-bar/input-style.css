@@ -1,20 +1,20 @@
-input[type="range"] {
+#range {
     -webkit-appearance: none;
     appearance: none;
     width: 100%;
+    height: 6px;
     cursor: pointer;
     outline: none;
     border-radius: 15px;
-    height: 6px;
     background: #3c3a3a;
 }
 
-input[type="range"]::-webkit-slider-thumb {
+#range::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     height: 15px;
     width: 15px;
-    background-color: rgb(255, 85, 0);
+    background-color: rgba(255, 85, 0, 0);
     border-radius: 50%;
     border: none;
     /* transition: .2s ease-in-out; */
@@ -34,6 +34,7 @@ input[type="range"]:focus::-webkit-slider-thumb {
 
 body {
     font-family: system-ui;
+    background: #33333e;
 }
 
 h1 {
@@ -63,6 +64,38 @@ h1 {
     width: 80%;
     background: #5be97e;
     padding: 0px 10px;
+}
+
+.spotify-bar {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    /*  slider progress trick  */
+    overflow: hidden;
+    border-radius: 16px;
+    height: 16px;
+}
+
+/* Track: webkit browsers */
+
+
+/* Thumb: webkit */
+.spotify-bar::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    border: 2px solid #f50;
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px #f50;
 }
 
 .value {

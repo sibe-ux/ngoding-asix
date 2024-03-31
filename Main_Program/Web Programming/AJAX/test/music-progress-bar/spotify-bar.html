@@ -61,18 +61,13 @@
             </div>
         </div>
     </div>
-    <audio controls id="song">
+    <!-- <audio controls id="song">
         <source
             src="https://github.com/sibeux/license-sibeux/raw/MyProgram/%E6%97%A5%E6%9C%AC%E3%81%AE%E6%AD%8C/1000000_TIMES_feat._chelly_EGOIST/1000000_TIMES_feat._chelly_EGOIST.mp3"
             type="audio/mpeg">
-    </audio>
+    </audio> -->
     <script>
         var progressBar = document.querySelector(".progress-bar");
-
-        // progressBar.addEventListener("click", (event) => {
-        //     const progress = (event.offsetX / progressBar.offsetWidth) * 100;
-        //     progressBar.querySelector(".progress").style.width = `${progress}%`;
-        // });
 
         var isDragging = false;
 
@@ -82,6 +77,7 @@
             const progress = (event.offsetX / progressBar.offsetWidth) * 100;
             progressBar.querySelector(".progress").style.width = `${progress}%`;
         });
+
 
         progressBar.addEventListener("mousemove", (event) => {
             if (isDragging) {

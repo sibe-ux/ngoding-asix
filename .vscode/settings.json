@@ -206,7 +206,7 @@
   ],
   "files.associations": {
     "iostream": "cpp",
-    "*.php": "c"
+    "*.php": "php"
   },
   "jupyter.interactiveWindow.cellMarker.decorateCells": true,
   "jupyter.interactiveWindow.cellMarker.default": "# %%",
