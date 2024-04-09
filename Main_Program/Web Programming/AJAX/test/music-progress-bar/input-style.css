@@ -14,7 +14,7 @@
     appearance: none;
     height: 15px;
     width: 15px;
-    background-color: rgba(255, 85, 0, 0);
+    background-color: rgb(255, 85, 0);
     border-radius: 50%;
     border: none;
     /* transition: .2s ease-in-out; */
@@ -91,7 +91,7 @@ h1 {
     /* creating a custom design */
     height: 15px;
     width: 15px;
-    background-color: #ffffff00;
+    background-color: #ffffff;
     border-radius: 50%;
     border: 2px solid #f50;
     /*  slider progress trick  */
