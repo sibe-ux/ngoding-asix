@@ -1,8 +1,8 @@
 <?php
 
-require_once("db.php");
+require_once("./db.php");
 
-if(isset($_GET['offset']) && isset($_GET['limit'])){
+if (isset($_GET['offset']) && isset($_GET['limit'])) {
 
     $limit = $_GET['limit'];
     $offset = $_GET['offset'];
@@ -12,12 +12,12 @@ if(isset($_GET['offset']) && isset($_GET['limit'])){
     $data = mysqli_query($connect, "SELECT jurusan.id_jurusan,
     jurusan.nama_jurusan, siswa.* FROM siswa join jurusan on jurusan.id_jurusan = siswa.id_jurusan ORDER BY urutan LIMIT $limit OFFSET $offset");
 
-    while($row = mysqli_fetch_array($data)){
-    $nama_siswa = ucwords($row['nama_siswa']);
-    $jurusan = ucwords($row['nama_jurusan']);
-    $tingkat = ($row['tingkat']);
-    $nis = ($row['nis']);
-    echo "
+    while ($row = mysqli_fetch_array($data)) {
+        $nama_siswa = ucwords($row['nama_siswa']);
+        $jurusan = ucwords($row['nama_jurusan']);
+        $tingkat = ($row['tingkat']);
+        $nis = ($row['nis']);
+        echo "
     <div class='col col-lg-6 col-xl-4'>
                     <div class='product-container'>
                         <div class='product-card'>
@@ -32,22 +32,22 @@ if(isset($_GET['offset']) && isset($_GET['limit'])){
                                     <span class='product-title'>{$nama_siswa}</span>
                                 </a>
                                 <div class='product-price'>20241010100{$nis}</div>";
-                                        echo "<a id='biodata' style='text-decoration: none;'>";
-                                        echo "Tingkat\t: {$tingkat}";
-                                        echo "</a>";
-                                        echo "<br>";
-                                        echo "<a id='biodata' style='text-decoration: none;'>";
-                                        echo "Jurusan\t: {$jurusan}";
-                                        echo "</a>";
-                                        echo "<br>";
-                                        echo "<a id='biodata' style='text-decoration: none;'>";
-                                        echo "Kategori\t: {$row['kategori']}";
-                                        $id = $row['nis'];
-                                        echo "<br>";
-                                        echo "<a href='view/detail_siswa.php?op=detail&id={$id}' style='text-decoration: none;'>";
-                                        echo "<span class='detail'>Detail</span>";
-                                        echo "</a>";
-                                echo "</div>
+        echo "<a id='biodata' style='text-decoration: none;'>";
+        echo "Tingkat\t: {$tingkat}";
+        echo "</a>";
+        echo "<br>";
+        echo "<a id='biodata' style='text-decoration: none;'>";
+        echo "Jurusan\t: {$jurusan}";
+        echo "</a>";
+        echo "<br>";
+        echo "<a id='biodata' style='text-decoration: none;'>";
+        echo "Kategori\t: {$row['kategori']}";
+        $id = $row['nis'];
+        echo "<br>";
+        echo "<a href='view/detail_siswa.php?op=detail&id={$id}' style='text-decoration: none;'>";
+        echo "<span class='detail'>Detail</span>";
+        echo "</a>";
+        echo "</div>
                                 <div class='btn'>
                                     <i class='bx bxs-edit-alt' onclick='edit({$row['nis']})'></i>
                                     <i class='bx bxs-trash' onclick='hapus({$row['nis']})'></i>
