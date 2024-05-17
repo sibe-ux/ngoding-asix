@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- kalo pake linenuc, harus ditambah crossorigin="anonymous" -->
+    <video id="player" autoplay controls crossorigin="anonymous">
+        <source
+            src="https://drive.usercontent.google.com/download?id=107Nb_AZqMUEbVQS4fJ6B2WHogoOm_3GD&export=open&authuser=0"
+            >
+    </video>
+
+    <!-- add button for next music -->
+    <button id="next">Next</button>
+</body>
+<script>
+    var x = ['https://drive.lienuc.com/uc?id=17lA562ydFrzELQWup44zWd7PWiY5A9OC',
+        'https://raw.githubusercontent.com/sibeux/sibeux-contrarians-syntaxianz/main/omaga/Rise-Fall-inst/Rise-Fall-inst.mp3'];
+    var index = 0;
+    var music = document.getElementById("player");
+    if (index < 2) {
+        $("#player").bind("ended", function () {
+            music.src = x[index];
+            index = index + 1;
+            music.load();
+            music.play();
+
+            if (index >= 2) {
+                index = 0;
+            }
+        });
+    }
+
+    $("#next").click(function () {
+        music.src = x[index];
+        index = index + 1;
+        music.load();
+        music.play();
+
+        if (index >= 2) {
+            index = 0;
+        }
+    });
+</script>
+
+</html>
