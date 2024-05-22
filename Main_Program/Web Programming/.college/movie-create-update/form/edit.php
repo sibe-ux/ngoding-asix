@@ -1,24 +1,24 @@
 <?php
-                require_once("../db.php");
+require_once("../db.php");
 
-                $op = isset($_GET['op']) ? $_GET['op'] : "";
-                $loc = $op;
-                $id = isset($_GET['id']) ? $_GET['id'] : '';
-                $sql = "SELECT * FROM film WHERE film_id = '$id'";
-                $table_language = "SELECT * FROM language";
-                $language = "SELECT film.film_id, film.language_id, language.name
+$op = isset($_GET['op']) ? $_GET['op'] : "";
+$loc = $op;
+$id = isset($_GET['id']) ? $_GET['id'] : '';
+$sql = "SELECT * FROM film WHERE film_id = '$id'";
+$table_language = "SELECT * FROM language";
+$language = "SELECT film.film_id, film.language_id, language.name
                 from language
                 join film 
                 on language.language_id = film.language_id where film.film_id = '$id'";
-                $query_language = mysqli_query($db, $language) or die( mysqli_error($db));
-                $query = mysqli_query($db, $sql) or die( mysqli_error($db));
-                $table_language = mysqli_query($db, $table_language) or die( mysqli_error($db));
+$query_language = mysqli_query($db, $language) or die(mysqli_error($db));
+$query = mysqli_query($db, $sql) or die(mysqli_error($db));
+$table_language = mysqli_query($db, $table_language) or die(mysqli_error($db));
 
-                $data = [];
-                
-                while ($row = mysqli_fetch_array($query)) {
-                    array_push($data, $row);
-            ?>
+$data = [];
+
+while ($row = mysqli_fetch_array($query)) {
+    array_push($data, $row);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -195,10 +195,10 @@
             </div>
 
             <div id="dom-target" style="display: none;">
-                <?php 
+                <?php
                     $result =  json_encode($data);
                     echo htmlspecialchars($result);
-                ?>
+                    ?>
             </div>
             <?php };
             ?>
@@ -303,7 +303,7 @@
     });
 
     function backAdd() {
-            location.href = "../film_detail.php?op=detail&id=" + data[0]['film_id'];
+        location.href = "../film_detail.php?op=detail&id=" + data[0]['film_id'];
     }
 
     function submitBtn() {
