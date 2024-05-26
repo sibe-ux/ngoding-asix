@@ -15,10 +15,11 @@ tile_size = 64  # menurun
 tile_size2 = 36  # mendatar
 
 clock = pygame.time.Clock()
-fps = 320 # MENGATUR PERGERAKAN PLAYER, SEMAKIN BANYAK SEMAKIN CEPAT
+fps = 320  # MENGATUR PERGERAKAN PLAYER, SEMAKIN BANYAK SEMAKIN CEPAT
 
 # load image
-bg_img = pygame.image.load('/home/nasrulwahabi/Documents/Ngoding_Asix_SyntaxianZ-MyProgram/My Progam/My Program/Python/Game Development/Platformer Mario Cat/RESOURCE/jungle.jpg')
+bg_img = pygame.image.load(
+    f'G:\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\SIBEUX\Algorithm_Programming\PEMROGRAMAN\Main_Program\Python\Game Development\Platformer Mario Cat\RESOURCE\jungle.jpg')
 
 
 # def draw_grid():
@@ -37,14 +38,14 @@ class player():
         self.index = 0
         self.counter = 0
         img_stand_right = pygame.image.load(
-            f'/home/nasrulwahabi/Documents/Ngoding_Asix_SyntaxianZ-MyProgram/My Progam/My Program/Python/Game Development/Platformer Mario Cat/RESOURCE/stand1.png')
+            f'G:\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\SIBEUX\Algorithm_Programming\PEMROGRAMAN\Main_Program\Python\Game Development\Platformer Mario Cat\RESOURCE\stand1.png')
         img_stand_right = pygame.transform.scale(img_stand_right, (40, 68))
         img_stand_left = pygame.transform.flip(img_stand_right, True, False)
         self.stand_right.append(img_stand_right)
         self.stand_left.append(img_stand_left)
         for num in range(2, 4):
             img_right = pygame.image.load(
-                f'/home/nasrulwahabi/Documents/Ngoding_Asix_SyntaxianZ-MyProgram/My Progam/My Program/Python/Game Development/Platformer Mario Cat/RESOURCE/stand{num}.png')
+                f'G:\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\SIBEUX\Algorithm_Programming\PEMROGRAMAN\Main_Program\Python\Game Development\Platformer Mario Cat\RESOURCE\stand{num}.png')
             img_right = pygame.transform.scale(img_right, (50, 65))
             img_left = pygame.transform.flip(img_right, True, False)
             self.image_right.append(img_right)
@@ -62,7 +63,8 @@ class player():
     def update(self):
         dx = 0
         dy = 0
-        walk_cooldown = 15  # run speed (semakin kecil semakin cepat) ini animasi cok bukan real speed
+        # run speed (semakin kecil semakin cepat) ini animasi cok bukan real speed
+        walk_cooldown = 15
         # get keypresses
         key = pygame.key.get_pressed()
         if key[pygame.K_SPACE] and self.jumped == False:
@@ -71,11 +73,11 @@ class player():
         if key[pygame.K_SPACE] == False:
             self.jumped = False
         if key[pygame.K_LEFT]:
-            dx -= 1 # REAL KECEPATAN LARI
+            dx -= 1  # REAL KECEPATAN LARI
             self.counter += 1
             self.direction = -1
         if key[pygame.K_RIGHT]:
-            dx += 1 # REAL KECEPATAN LARI
+            dx += 1  # REAL KECEPATAN LARI
             self.counter += 1
             self.direction = 1
         if key[pygame.K_LEFT] == False and key[pygame.K_RIGHT] == False:
@@ -139,9 +141,9 @@ class World():
 
         # upload image
         wood_img = pygame.image.load(
-            '/home/nasrulwahabi/Documents/Ngoding_Asix_SyntaxianZ-MyProgram/My Progam/My Program/Python/Game Development/Platformer Mario Cat/RESOURCE/wood.jpg')
+            'G:\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\SIBEUX\Algorithm_Programming\PEMROGRAMAN\Main_Program\Python\Game Development\Platformer Mario Cat\RESOURCE\wood.jpg')
         stn_img = pygame.image.load(
-            '/home/nasrulwahabi/Documents/Ngoding_Asix_SyntaxianZ-MyProgram/My Progam/My Program/Python/Game Development/Platformer Mario Cat/RESOURCE/stone.jpg')
+            'G:\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\SIBEUX\Algorithm_Programming\PEMROGRAMAN\Main_Program\Python\Game Development\Platformer Mario Cat\RESOURCE\stone.jpg')
 
         row_count = 0
         for row in data:
@@ -195,12 +197,13 @@ world_data = [
     [1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 ]
 
-Player = player(100, screen_height - 150) # TEMPAT MENURUNKAN PLAYER DI AWAL PERMAINAN
+# TEMPAT MENURUNKAN PLAYER DI AWAL PERMAINAN
+Player = player(100, screen_height - 150)
 world = World(world_data)
 
 run = True
 while run:
-    clock.tick(fps) # MENGATUR PERGERAKAN PLAYER, SEMAKIN BANYAK SEMAKIN CEPAT
+    clock.tick(fps)  # MENGATUR PERGERAKAN PLAYER, SEMAKIN BANYAK SEMAKIN CEPAT
     screen.blit(bg_img, (0, 0))
     world.draw()
     Player.update()

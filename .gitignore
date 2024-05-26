@@ -6,3 +6,7 @@ Main_Program/Python/SQL Injection/sqlmapproject-sqlmap-88798cf/plugins/desktop.i
 Main_Program/C++/desktop.ini
 Main_Program/Android/android-java-native.zip
 Main_Program/flutter_dev
+
+# ignore all files with .ini extension
+*.ini
+

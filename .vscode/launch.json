@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "angkaBalik",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.angkaBalik",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "ForLoop",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_dasar_master.ForLoop",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "ForEach",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_dasar_master.ForEach",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "DoWhileLoop",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_dasar_master.DoWhileLoop",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
       "name": "Launch Palyndrome",
       "request": "launch",
       "mainClass": "test.Palyndrome",

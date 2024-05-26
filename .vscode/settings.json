@@ -14,7 +14,7 @@
   "prettier.embeddedLanguageFormatting": "auto",
   "prettier.useTabs": true,
   "notebook.displayOrder": [],
-  "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.editor.enableAutoCompletions": true,
   "notebook.showCellStatusBar": "visible",
   "notebook.cellToolbarLocation": {
     "default": "right"
@@ -92,7 +92,7 @@
   "editor.cursorWidth": 2,
   "editor.cursorStyle": "line",
   "editor.lineNumbers": "on",
-  "editor.inlayHints.enabled": true,
+  "editor.inlayHints.enabled": "on",
   "editor.parameterHints.enabled": true,
   "editor.suggest.showTypeParameters": true,
   "editor.minimap.enabled": false,
@@ -126,7 +126,7 @@
     "Main Program\\JAVA_OOP\\src",
     "Main_Program\\JAVA_OOP\\src"
   ],
-  "C_Cpp.errorSquiggles": "Disabled",
+  "C_Cpp.errorSquiggles": "disabled",
   "cssPeek.peekFromLanguages": [
     "html",
     "django-html",
@@ -208,10 +208,13 @@
     "iostream": "cpp",
     "*.php": "php"
   },
-  "jupyter.interactiveWindow.cellMarker.decorateCells": true,
+  "jupyter.interactiveWindow.cellMarker.decorateCells": "currentCell",
   "jupyter.interactiveWindow.cellMarker.default": "# %%",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
   },
-  "dotnet.defaultSolution": "disable"
+  "dotnet.defaultSolution": "disable",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true
 }

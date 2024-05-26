@@ -10,9 +10,8 @@ public record LoginRequest(String username, String password) {
     this(username, "");
   }
 
-public String username() {
-    return null;
-}
+  @Override
+  public String username(){return null;}
   
   public LoginRequest() {
     this("", "");
