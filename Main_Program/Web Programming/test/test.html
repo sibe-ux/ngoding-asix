@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Kartu Nama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .business-card {
+            width: 350px;
+            height: 200px;
+            border: 1px solid #000;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .front,
+        .back {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="business-card front">
+        <div class="logo">
+            <!-- Tambahkan logo perusahaan di sini -->
+            <img src="logo.png" alt="Logo Perusahaan" width="80" height="80">
+        </div>
+        <h2>Nama Lengkap</h2>
+        <p>Jabatan</p>
+        <p>Perusahaan</p>
+    </div>
+
+    <div class="business-card back">
+        <div class="info">
+            <p>Alamat Kantor</p>
+            <p>Telepon: 123-456</p>
+            <p>Email: email@domain.com</p>
+            <p>Website: www.domain.com</p>
+        </div>
+    </div>
+</body>
+
+</html>
