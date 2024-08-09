@@ -12,7 +12,7 @@ import datetime
 API_KEY = "AIzaSyCxkdo7DDaO7-QiIxQjGtoTfWo39VwNu-M"
 
 # Replace with the ID of your folder
-FOLDER_ID = "1-fXs6y5xYR6nFmQkGtnMDztpHCLop8iY"
+FOLDER_ID = "11pXPfz1Qg6wnOwUV4ZrwVBhiuZVF-R7n"
 
 
 def generate_random_duration():
@@ -48,9 +48,9 @@ def list_files_in_folder(api_key, folder_id):
 
         # Parameters for the static fields
         category = "2"
-        artist = "5050, AAA, AI-SACHI, Akemi Okamura, Asia Engineer, BON-BON BLANCO, BOYSTYLE, D-51, Folder5, GENERATIONS, Hiroaki Hirata, Hiroshi Kitadani, Ikue Ohtani, Janne da Arc, Kappei Yamaguchi, Kazuki Yao, Kazuya Nakai, Kishidan, Kota Shinzato, Maki Otsuki, Mari Yaguchi, Mayumi Tanaka, Namie Amuro, Ruppina, shela, Suitei Shoujo, Takako Uehara, The Babystars, The Kaleidoscope, The ROOTLESS, Tohoshinki, TOMATO CUBE, TRIPLANE, ZZ"
-        album = "One Piece 20th Anniversary Best Album Disc 1"
-        cover_link = "https://drive.google.com/file/d/106cq5wXUNpAsmQbZh7CmPx6vn4OB20S-/view?usp=drive_link"
+        artist = "Keiji Inai, Kohei Tanaka, Shiro Hamaguchi, Yasuhisa Murase"
+        album = "One Piece Music Material Disc 5"
+        cover_link = "https://drive.google.com/file/d/1QC4jUFavRuzR49GOIBi0tGqHEs8x5-6S/view?usp=drive_link"
         favorite = "0"
 
         # Collecting each row of values
