@@ -12,7 +12,7 @@ import datetime
 API_KEY = "AIzaSyCxkdo7DDaO7-QiIxQjGtoTfWo39VwNu-M"
 
 # Replace with the ID of your folder
-FOLDER_ID = "11pXPfz1Qg6wnOwUV4ZrwVBhiuZVF-R7n"
+FOLDER_ID = "1L0IJIbQpgJiRfSQnAc6g0qID1ktQgtcO"
 
 
 def generate_random_duration():
@@ -48,9 +48,9 @@ def list_files_in_folder(api_key, folder_id):
 
         # Parameters for the static fields
         category = "2"
-        artist = "Keiji Inai, Kohei Tanaka, Shiro Hamaguchi, Yasuhisa Murase"
-        album = "One Piece Music Material Disc 5"
-        cover_link = "https://drive.google.com/file/d/1QC4jUFavRuzR49GOIBi0tGqHEs8x5-6S/view?usp=drive_link"
+        artist = "Keiji Inai, Kohei Tanaka, Masami Kishimura, Shiro Hamaguchi, Yasuhisa Murase"
+        album = "One Piece Original Soundtrack - New World Dics 2"
+        cover_link = "https://drive.google.com/file/d/1Ix9L1RqlpRww6_lFPLlasy5HZsz1vfsp/view?usp=drive_link"
         favorite = "0"
 
         # Collecting each row of values
