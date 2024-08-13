@@ -168,7 +168,10 @@
       "Main_Program\\JAVA_OOP\\src\\com\\javaoop\\materi\\Pretty_Table\\commons-lang3-3.12.0-bin\\commons-lang3-3.12.0\\commons-lang3-3.12.0.jar",
       "c:\\Users\\Nasrul Wahabi\\Documents\\mobile-developer\\android-java-native\\hacktiv8\\libs\\mysql-connector-java-8.0.30.jar",
       "g:\\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\\SIBEUX\\KULIAH\\__UNEJ__\\Algorithm_Programming\\PEMROGRAMAN\\Main_Program\\JAVA_OOP\\src\\com\\javaoop\\materi\\Database\\Driver JDBC\\postgresql-42.3.1.jar",
-      "g:\\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\\SIBEUX\\KULIAH\\__UNEJ__\\Algorithm_Programming\\PEMROGRAMAN\\Main_Program\\JAVA_OOP\\src\\com\\javaoop\\tugas\\smt_3\\project_akhir\\main_project\\entities\\db4o\\db4o-7.2.44.10827-osgi.jar"
+      "g:\\.shortcut-targets-by-id\\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\\SIBEUX\\KULIAH\\__UNEJ__\\Algorithm_Programming\\PEMROGRAMAN\\Main_Program\\JAVA_OOP\\src\\com\\javaoop\\tugas\\smt_3\\project_akhir\\main_project\\entities\\db4o\\db4o-7.2.44.10827-osgi.jar",
+      "Main_Program/JAVA_OOP/libs/google-api-client-xml-2.0.0.jar",
+      "Main_Program/JAVA_OOP/libs/google-api-java-client/libs/*.jar",
+      "Main_Program/JAVA_OOP/libs/google-api-java-client/libs-sources/*.jar",
     ],
     "exclude": [
       "Main Program/JAVA_OOP/src/com/javaoop/materi/Pretty_Table/commons-lang3-3.12.0-bin/commons-lang3-3.12.0/commons-lang3-3.12.0-javadoc.jar"
@@ -216,5 +219,6 @@
   },
   "dotnet.defaultSolution": "disable",
   "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.autoImportCompletions": true
+  "python.analysis.autoImportCompletions": true,
+  "java.compile.nullAnalysis.mode": "automatic"
 }

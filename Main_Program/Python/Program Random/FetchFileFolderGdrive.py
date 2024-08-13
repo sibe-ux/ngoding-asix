@@ -12,7 +12,7 @@ import datetime
 API_KEY = "AIzaSyCxkdo7DDaO7-QiIxQjGtoTfWo39VwNu-M"
 
 # Replace with the ID of your folder
-FOLDER_ID = "1L0IJIbQpgJiRfSQnAc6g0qID1ktQgtcO"
+FOLDER_ID = "1rjGWTQlPYFNawTVGGhp3NxU1xol8jC-u"
 
 
 def generate_random_duration():
@@ -47,10 +47,12 @@ def list_files_in_folder(api_key, folder_id):
         insert_statement_template = "INSERT INTO music (id_music, category, link_gdrive, title, artist, album, time, cover, favorite, date_added) VALUES \n"
 
         # Parameters for the static fields
+        # 2 = 日本の歌 (Japanese Songs)
         category = "2"
-        artist = "Keiji Inai, Kohei Tanaka, Masami Kishimura, Shiro Hamaguchi, Yasuhisa Murase"
-        album = "One Piece Original Soundtrack - New World Dics 2"
-        cover_link = "https://drive.google.com/file/d/1Ix9L1RqlpRww6_lFPLlasy5HZsz1vfsp/view?usp=drive_link"
+        # hati-hati dengan karakter khusus dalam string SQL, seperti tanda kutip tunggal
+        artist = "Toshio Masuda"
+        album = "NARUTO original soundtrack 3"
+        cover_link = "https://drive.google.com/file/d/1rabeo0KYPdsFJhuaS23Xpq9FLCVy7W52/view?usp=drive_link"
         favorite = "0"
 
         # Collecting each row of values
