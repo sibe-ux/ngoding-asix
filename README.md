@@ -1,1 +1,0 @@
-Hallo Syntaxianz😎!! Ini merupakan sebuah repository yang menampung seluruh file program dari Nasrul Wahabi [SibeUX]🗃️📩 . Oke salam kenal and stay coding with smiling guys🤗. By nasrulwahabi - Sibe-UX
