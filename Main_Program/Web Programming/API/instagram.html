@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const accessToken = 'IGQWRNSDdzT3lKRGdQbi1SXzFUZAWwtS20yY0RjSGlFV05peGZAQSmVMZADhXMXFNaUlaOFQyREtkQ0pyU3V6ZAlpKMEV5MHVBTndCb09hSjdOYWVWR29lN1ROV3E0Ni1ySDdseUpCdzdRd2hkYmJmUGkya3htdlo3Y1kZD';
+        
+            const userId = '7956547167793903'; // Ganti dengan ID pengguna Anda yang valid
+                const url = `https://graph.instagram.com/me/media?fields=id,caption&access_token=${accessToken}`;
+
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.followers_count !== undefined) {
+                            console.log('Jumlah followers:', data.followers_count);
+                        } else {
+                            console.error('Error:', data.error.message);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                    const url_user = `https://graph.instagram.com/me?fields=id,username&access_token=${accessToken}`;
+
+                    fetch(url_user)
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.id !== undefined) {
+                                console.log('User ID:', data.id);
+                                console.log('Username:', data.username);
+                            } else {
+                                console.error('Error:', data.error.message);
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                        });
+
+    </script>
+</body>
+
+</html>

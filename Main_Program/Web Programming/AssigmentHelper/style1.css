@@ -1,0 +1,100 @@
+#tex {
+    padding:6px;
+    width:75%;
+    border-radius:5px;
+    margin-top:17.5px;
+    border:1px solid #ccc;
+    font-size:10px;
+    font-family:raleway;
+}
+
+#sub {
+    padding:2px;
+    background-color:#00af8c;
+    color:#fff;
+    border:1px solid #999;
+    padding:5px;
+    font-size:10px;
+    cursor:pointer;
+    border-radius:3px;
+    margin-top:24px;
+    font-family:Georgia;
+}
+#main {
+    width:400px;
+    height:400px;
+    margin:0px auto;
+    font-family:raleway
+}
+
+span {
+    color:red
+}
+
+h2 {
+    background-color:#FEFFED;
+    text-align:center;
+    border-radius:10px 10px 0 0;
+    margin:-10px -40px;
+    padding:15px
+}
+
+hr {
+    border:0;
+    border-bottom:1px solid #ccc;
+    margin:10px -40px;
+    margin-bottom:30px
+}
+
+#login {
+    width:300px;
+    float:left;
+    border-radius:10px;
+    font-family:raleway;
+    border:2px solid #ccc;
+    padding:10px 40px 25px;
+}
+
+#TPDF {
+    width:99.5%;
+    padding:10px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    padding-left:5px;
+    font-size:16px;
+    font-family:raleway
+}
+
+#S {
+    width:100%;
+    background-color:#1663d6;
+    color:#fff;
+    border:2px solid #1663d6;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px
+}
+
+#profile {
+    padding:50px;
+    border:1px dashed grey;
+    font-size:20px;
+    background-color:#DCE6F7
+}
+
+#logout {
+    float:right;
+    padding:5px;
+    border:dashed 1px gray
+}
+
+a {
+    text-decoration:none;
+    color:#6495ed
+}
+
+i {
+    color:#ff2d2d
+}

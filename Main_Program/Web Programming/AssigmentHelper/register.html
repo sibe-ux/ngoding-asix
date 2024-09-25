@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrasi - Assigment Helper</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="icon" href="gambar/AssigmentHelperLogo.png"/>
+	<style>
+        body {
+			background-color:rgb(205, 230, 255);
+		}
+        h3 {
+            font-family:'Times New Roman', Times, serif;
+        }
+        fieldset {
+			background-color:rgb(234, 251, 255);
+		}
+        input[type=submit], input[type=reset] {
+			background-color:#1663d6;
+			color:#fff;
+			border:1px solid #999;
+			padding:5px;
+			font-size:18px;
+			cursor:pointer;
+			border-radius:3px;
+			margin-top:15px;
+			margin-bottom:15px;
+			margin-right:5px;
+			font-family:Georgia; }
+	</style>
+</head>
+<body>
+	<div id="main">
+		<h1><center>Register Account</center></h1>
+		<fieldset><legend><h3>Form Regristasi</h3></legend>
+		<form action="register_proses.php" method="post">
+			<table border="0">
+				<tr>
+					<td>Username</td>
+					<td>: </td>
+					<td><input type="text" id="TPDF" name="username"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>: </td>
+					<td><input type="text" id="TPDF" name="email"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>: </td>
+					<td><input type="text" id="TPDF" name="password"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" id="" name="submit" value="Daftar"></td>
+				</tr>
+			</table>
+		</form>
+		</fieldset>
+	</div>
+</body>
+</html>
