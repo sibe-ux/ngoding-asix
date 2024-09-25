@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Main_Program",
+    "\\Main_Program\\Web Programming",
+    "\\Main_Program\\Web Programming\\AJAX\\project",
+    "\\Main_Program\\Web Programming\\AJAX\\project\\transactionApp",
+    "\\Main_Program\\Web Programming\\AJAX\\project\\transactionApp\\controller",
+    "\\Main_Program\\Web Programming\\AJAX\\project\\transactionApp\\controller\\form-handling",
+    "\\Main_Program\\Web Programming\\cloud-music-player",
+    "\\Main_Program\\Web Programming\\cloud-music-player\\database",
+    "\\Main_Program\\Web Programming\\cloud-music-player\\database\\mobile-music-player",
+    "\\Main_Program\\Web Programming\\cloud-music-player\\database\\mobile-music-player\\api"
+  ],
+  "SelectedNode": "\\Main_Program\\Web Programming\\cloud-music-player\\database\\mobile-music-player\\api\\pin_playlist.php",
+  "PreviewInSolutionExplorer": false
+}

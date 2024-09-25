@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // aritmatika
+        let result = 1 + 2;
+        document.writeln("<p>1 + 2 = " + result + "</p>");
+        let originalResult = result;
+
+        result = result - 1;
+        document.writeln("<p>" + originalResult + " - 1 = " + result + "</p>");
+        originalResult = result;
+
+        result = result * 2;
+        document.writeln("<p>" + originalResult + " * 2 = " + result + "</p>");
+        originalResult = result;
+
+        // augmented assignment
+        result += 1;
+        document.writeln("<p>" + originalResult + " + 1 = " + result + "</p>");
+        originalResult = result;
+        
+        // unary operator
+        result = -result;
+        document.writeln("<p>-" + originalResult + " = " + result + "</p>");
+        originalResult = result;
+
+        result = --result;
+        document.writeln("<p>--" + originalResult + " = " + result + "</p>");
+        originalResult = result;
+
+        result = ++result;
+        document.writeln("<p>++" + originalResult + " = " + result + "</p>");
+        originalResult = result;
+    </script>
+</body>
+</html> 

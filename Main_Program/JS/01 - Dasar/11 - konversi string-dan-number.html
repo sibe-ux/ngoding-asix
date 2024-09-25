@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // konversi string dan number
+        const nama = "20";
+        const umur = 20;
+        const sum = nama + umur;
+        document.writeln(`<p>${sum}</p>`);
+        document.writeln("<br>");
+
+        const nama2 = parseInt(nama)
+        const sum2 = nama2 + umur;
+        document.writeln(`<p>${sum2}</p>`);
+        document.writeln("<br>");
+
+        document.writeln(`<p>${parseInt("3.9")}</p>`);
+        document.writeln(`<p>${parseFloat("1.2")}</p>`);
+        document.writeln(`<p>${Number("1.2")}</p>`);
+        document.writeln("<br>");
+
+        const a = 1;
+        const b = 1;
+        const c = a + b;
+        const d = a.toString() + b.toString();
+        document.writeln(`<p>${c}</p>`);
+        document.writeln(`<p>${d}</p>`);
+        document.writeln("<br>");
+
+        // NaN not a number 
+        // isNaN(x)
+        document.writeln(`<p>${parseInt("salah")}</p>`);
+        document.writeln(`<p>${parseFloat("6.2text")}</p>`);
+        document.writeln(`<p>${Number("1.2yecy")}</p>`);
+        document.writeln(`<p>${isNaN(12)}</p>`);
+        document.writeln(`<p>${isNaN("12")}</p>`);
+        document.writeln(`<p>${isNaN("oke")}</p>`);
+        document.writeln("<br>");
+
+        // nan operasi
+        const value = Number("salah"); // NaN
+        const value2 = 100;
+        const value3 = value + value2; // NaN
+        document.writeln(`<p>${value3}</p>`);
+    </script>
+</body>
+</html>

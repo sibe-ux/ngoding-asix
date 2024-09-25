@@ -1,0 +1,9 @@
+1. tambahkan direktori python39 (python version) dan pip version ke dalam system variabel path
+C:\Users\wahab\AppData\Local\Programs\Python\Python39
+C:\Python37\Scripts\pip
+
+2. lalu buka cmd dan run 'python -m pip install pygame'
+
+3. tunggu dan buka vscode
+
+yowes ngunu tok bajingan angel eram import pygame

@@ -1,0 +1,44 @@
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    margin-top: -30px;
+}
+
+.one{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px 30px 40px;
+}
+
+.two{
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.three{
+    background-color: aqua;
+    width: 130px;
+    height: 130px;
+    margin: 20px auto 50px;
+}

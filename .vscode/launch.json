@@ -1,0 +1,2475 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MainTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.project_akhir.main_project.test.MainTest",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "angkaBalik",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.angkaBalik",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "ForLoop",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_dasar_master.ForLoop",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "ForEach",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_dasar_master.ForEach",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "DoWhileLoop",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_dasar_master.DoWhileLoop",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "Launch Palyndrome",
+      "request": "launch",
+      "mainClass": "test.Palyndrome",
+      "projectName": "PEMROGRAMAN_44777ce4"
+    },
+    {
+      "type": "java",
+      "name": "Launch Palyndrome",
+      "request": "launch",
+      "mainClass": "test.Palyndrome",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch FizzBuzz",
+      "request": "launch",
+      "mainClass": "test.FizzBuzz",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrimeNumber",
+      "request": "launch",
+      "mainClass": "test.PrimeNumber",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch IntvMetrodataAcademy",
+      "request": "launch",
+      "mainClass": "test.IntvMetrodataAcademy",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch SwapVar",
+      "request": "launch",
+      "mainClass": "test.SwapVar",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "test.Test",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch Database",
+      "request": "launch",
+      "mainClass": "test.Database",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoginForm",
+      "request": "launch",
+      "mainClass": "com.java_gui.example.LoginForm",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch void_learn",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.void_learn",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayOperation",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.ArrayOperation",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArraysToString",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.ArraysToString",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch InstanceOf",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.InstanceOf",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch UnitTest",
+      "request": "launch",
+      "mainClass": "test.UnitTest",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.inheritance.Main",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch weapon_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.PRAKTIKUM.geometri.weapon_1052",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch geometry_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.PRAKTIKUM.geometri.geometry_1052",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch method_return",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.method_return",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch MasUniverse",
+      "request": "launch",
+      "mainClass": "competitive_programming.COMPFEST.MasUniverse",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch Container",
+      "request": "launch",
+      "mainClass": "com.java_gui.Container",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch Example",
+      "request": "launch",
+      "mainClass": "com.java_gui.Example",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh1",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh1",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch QueueApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.QueueApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch NavigableSetApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.NavigableSetApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch SortedSetAp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.SortedSetAp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch ComparatorApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ComparatorApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch ComparableApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ComparableApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch EnumSetApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.EnumSetApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch SetApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.SetApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch ImmutableApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.ImmutableApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch MutableApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.MutableApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch ListApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.ListApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch CollectionApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.CollectionApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.PRAKTIKUM.Enkapsulasi_Polymorphisme.Main",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch angkaBalik",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.angkaBalik",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.KUIS.MainStudy",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch IterableApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.IterableApp",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch perulangan",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.perulangan",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh2",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh2",
+      "projectName": "PEMROGRAMAN_a6fedc34"
+    },
+    {
+      "type": "java",
+      "name": "Launch UnitTest",
+      "request": "launch",
+      "mainClass": "test.UnitTest",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayObject",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.ArrayObject",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch constructor",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.constructorDasar.constructor",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh1",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh1",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch palindrome",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.palindrome",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.dasarJava.Main",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch Penjumlahan",
+      "request": "launch",
+      "mainClass": "competitive_programming.TLX.Penjumlahan",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch PasarRakyat",
+      "request": "launch",
+      "mainClass": "competitive_programming.TLX.PasarRakyat",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch a",
+      "request": "launch",
+      "mainClass": "competitive_programming.CSES.a",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayHelperApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ArrayHelperApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch CollectionApp",
+      "request": "launch",
+      "mainClass": "CollectionApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch CollectionApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.CollectionApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch IterableApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_collection.IterableApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch ComparatorApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ComparatorApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch ComparableApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ComparableApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch TypeErasureApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.TypeErasureApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch WildcardApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.WildcardApp",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh2",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh2",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Pretty_Table.test",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch angkaBalik",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.angkaBalik",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.KUIS.MainStudy",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch perulangan",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.perulangan",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch perulangan",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.com.javaoop.materi.perulangan",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.com.javaoop.materi.test",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.test",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch perulangan",
+      "request": "launch",
+      "mainClass": "perulangan",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayObject",
+      "request": "launch",
+      "mainClass": "ArrayObject",
+      "projectName": "PEMROGRAMAN_ff228122"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.PRAKTIKUM.Enkapsulasi_Polymorphisme.Main",
+      "projectName": "PEMROGRAMAN_dcc91f83"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.project_akhir.main_project.test.MainTest",
+      "projectName": "PEMROGRAMAN_dcc91f83"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConstraintApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ConstraintApp",
+      "projectName": "PEMROGRAMAN_dcc91f83"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultipleConstraintApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.MultipleConstraintApp",
+      "projectName": "PEMROGRAMAN_dcc91f83"
+    },
+    {
+      "type": "java",
+      "name": "Launch ContravariantApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ContravariantApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch CovariantApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.CovariantApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch InvariantApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.InvariantApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayHelperApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.ArrayHelperApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch PairApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.PairApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch GenericClassApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_generic.application.GenericClassApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array",
+      "request": "launch",
+      "mainClass": "com.javaoop.programmer_zaman_now.java_dasar_master.Array",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch RuntimeApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_standard_classes.RuntimeApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch ObjectsApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_standard_classes.ObjectsApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArraysApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_standard_classes.ArraysApp",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.project_akhir.main_project.test.MainTest",
+      "projectName": "PEMROGRAMAN_5dd5fe42"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "CSES.test",
+      "projectName": "My Program_15c11133"
+    },
+    {
+      "type": "java",
+      "name": "Launch TernaryOperator",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar_master.TernaryOperator",
+      "projectName": "My Program_15c11133"
+    },
+    {
+      "type": "java",
+      "name": "Launch UnitTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.project_akhir.main_project.test.UnitTest",
+      "projectName": "My Program_15c11133"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.smt_3.project_akhir.main_project.test.MainTest",
+      "projectName": "My Program_15c11133"
+    },
+    {
+      "type": "java",
+      "name": "Launch dictionary",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.dictionary",
+      "projectName": "My Program_15c11133"
+    },
+    {
+      "type": "java",
+      "name": "Launch ClearScreenUtil",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Util.ClearScreenUtil",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.inheritance.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "TEST.inheritance.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch TugasLogin",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Test.TugasLogin",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringBuilderApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_standard_classes.StringBuilderApp",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch RegexApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_standard_classes.RegexApp",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch UnitTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Test.UnitTest",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.Object_Database.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Test.MainTest",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Test.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "TEST.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch coba",
+      "request": "launch",
+      "mainClass": "TEST.coba",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "TEST.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.Serializable.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch dictionary",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.dictionary",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch AplikasiToDoList",
+      "request": "launch",
+      "mainClass": "com.javaoop.todolist_sederhana.AplikasiToDoList",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayObject",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.ArrayObject",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Model.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch ClearScreen",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.Controller.ClearScreen",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.TM.PROJECT.models.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.MainApp",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch view_login",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.TM.PROJECT.view.view_login",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.SMT_3.Project_Akhir.View.Pretty_Table.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConnectDB",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Database.ConnectDB",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch AddRows",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Database.AddRows",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Pretty_Table.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch ReadTable",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Database.ReadTable",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeleteRows",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Database.DeleteRows",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main2",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Database.Main2",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.Database.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.Database.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main2",
+      "request": "launch",
+      "mainClass": "com.javaoop.Database.Main2",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.Database.Main",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.KUIS.MainStudy",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch perulangan",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.perulangan",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.test",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch factorial",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.factorial",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch BelajarFungsi",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.BelajarFungsi",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch palindrome",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.palindrome",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch RepeatString",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.RepeatString",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeSegi3",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.primeSegi3",
+      "projectName": "My Program_460cf967"
+    },
+    {
+      "type": "java",
+      "name": "Launch dictionary",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.dictionary",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch MissingNumb",
+      "request": "launch",
+      "mainClass": "CSES.MissingNumb",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch ObjectsApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.ObjectsApp",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch pecahanTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.PecahanNumber.pecahanTest",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeToN",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.primeToN",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch one",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.one",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch deret6",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.deret6",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch bitString",
+      "request": "launch",
+      "mainClass": "CSES.bitString",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Continue",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.Continue",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch weapon_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.geometri.weapon_1052",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch weapon_1052",
+      "request": "launch",
+      "mainClass": "weapon_1052",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch geometry_1052",
+      "request": "launch",
+      "mainClass": "geometry_1052",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch geometry_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.geometri.geometry_1052",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch factorial",
+      "request": "launch",
+      "mainClass": "factorial",
+      "projectName": "My Program_497fe80a"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestFruit",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.ArrayClass.TestFruit",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch RepeatString",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.RepeatString",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch PropertiesApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.PropertiesApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArraysApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.ArraysApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ScannerApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.ScannerApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch NumberApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.NumberApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.StringApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ObjectsApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.ObjectsApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch DateApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_standard_classes_master.DateApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ProductApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.data.ProductApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch RecordApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.RecordApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ReflectionApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.ReflectionApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch StackTraceApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.StackTraceApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValidationApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.ValidationApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch CompanyApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.CompanyApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch SwitchStatement",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.SwitchStatement",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ForLoop",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.ForLoop",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ReadApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.ReadApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch LocationApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.LocationApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch EqualsApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.EqualsApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch CategoryApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.CategoryApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch CarApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.CarApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch EnumApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.EnumApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch DatabaseApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.DatabaseApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch Application",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.Application",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch AnimalApp",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_oop_master.application.AnimalApp",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch AlphaBeta",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.AlphaBeta",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch OperasiPerbandingan",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.OperasiPerbandingan",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch OperasiMatematika",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.OperasiMatematika",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch AplikasiToDoList",
+      "request": "launch",
+      "mainClass": "com.javaoop.aplikasi_todolist_sederhana.AplikasiToDoList",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch view_login",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.PROJECT.view.view_login",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhileLoop",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.WhileLoop",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch TipeDataBukanPrimitif",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.TipeDataBukanPrimitif",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch IfStatement",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.IfStatement",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch HelloWorld",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.HelloWorld",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch ForEach",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.ForEach",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array",
+      "request": "launch",
+      "mainClass": "com.javaoop.belajar_java_dasar_master.Array",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch Block",
+      "request": "launch",
+      "mainClass": "Block",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch IfStatement",
+      "request": "launch",
+      "mainClass": "IfStatement",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch deret6",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.deret6",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch privatePublic",
+      "request": "launch",
+      "mainClass": "JAVA_OOP.src.com.javaoop.kelas_terbuka.accessModifier.privatePublic",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "JAVA_OOP.src.com.javaoop.tugas.UTS.MainStudy",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "MainStudy",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.UTS.MainStudy",
+      "projectName": "My Program_8a4585fd"
+    },
+    {
+      "type": "java",
+      "name": "Launch pecahanTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.PecahanNumber.pecahanTest",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.Enkapsulasi_Polymorphisme.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch staticMethod",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.staticMethod.staticMethod",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch samakaki",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.samakaki",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch palindrome",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.palindrome",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeSegi3",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.primeSegi3",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_6",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal1_6.soal_6",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_5",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal1_6.soal_5",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_3",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal1_6.soal_3",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_2",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal1_6.soal_2",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_1",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal1_6.soal_1",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeToN",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.primeToN",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch persegiBolong",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.persegiBolong",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch triangleBAja",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.triangleBAja",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch segitiga",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.segitiga",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch segitigaBintang",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.segitigaBintang",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch a",
+      "request": "launch",
+      "mainClass": "a",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch trailingZeros",
+      "request": "launch",
+      "mainClass": "trailingZeros",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch bitString",
+      "request": "launch",
+      "mainClass": "bitString",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch repetitions",
+      "request": "launch",
+      "mainClass": "repetitions",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch MissingNumb",
+      "request": "launch",
+      "mainClass": "MissingNumb",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch WeirdAlgorithme",
+      "request": "launch",
+      "mainClass": "WeirdAlgorithme",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch WeirdAlgorithme",
+      "request": "launch",
+      "mainClass": "com.javaoop.CSES.WeirdAlgorithme",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch factorial",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.factorial",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch primitifData",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.primitifData",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch bubbleSort",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.bubbleSort",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch PermutateArray",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.PermutateArray",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch void_learn",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.void_learn",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch inputARRAY",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.inputARRAY",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.keyword.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.UTS.MainStudy",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch angkaBalik",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.angkaBalik",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch invoiceMain",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.tokolapak.invoiceMain",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch weapon_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.geometri.weapon_1052",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch geometry_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.geometri.geometry_1052",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.polymorphisme.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.latihanInheritance.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.subClassConstructor.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.superInheritance.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.overriding.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.inheritance.Main",
+      "projectName": "My Program_e3177d59"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.overloading.Main",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch p",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.tokolapak.p",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch invoiceMain",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.tokolapak.invoiceMain",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch staticMethod",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.staticMethod",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch dictionary",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.dictionary",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch triangleBAja",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.triangleBAja",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch a",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.UTS.a",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainStudy",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.UTS.MainStudy",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_6",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal_6",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_5",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal_5",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_4",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal_4",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_3",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal_3",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_2",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.proton.soal_2",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch innerClass",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.innerClass",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch getterSetter",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.getterSetter",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch constructor",
+      "request": "launch",
+      "mainClass": "com.javaoop.constructor",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch reference",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.reference",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch method",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.method",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch constructor",
+      "request": "launch",
+      "mainClass": "com.javaoop.kelas_terbuka.constructor",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch angkaBalik",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.angkaBalik",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_6",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.soal_6",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_5",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.soal_5",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_4",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.soal_4",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_3",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.soal_3",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch soal_2",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.soal_2",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch aaa",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.aaa",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch deret6",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.deret6",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaApplication",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.JavaApplication",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch diagonal",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.diagonal",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch BelajarFungsi",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.BelajarFungsi",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch tab",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.tab",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch evenOOD",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.evenOOD",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch binary",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.binary",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch getterSetter",
+      "request": "launch",
+      "mainClass": "com.javaoop.getterSetter",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch bubbleSort",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.bubbleSort",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainMethod",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.MainMethod",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch mainLaundry",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.mainLaundry",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch mobil",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.mobil",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch staticVSnon_static",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.staticVSnon_static",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch one",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.one",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeLowerUpper",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.primeLowerUpper",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeToN",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.primeToN",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch triangleBAja",
+      "request": "launch",
+      "mainClass": "com.javaoop.triangleBAja",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch segitiga",
+      "request": "launch",
+      "mainClass": "com.javaoop.segitiga",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch segitigaBintang",
+      "request": "launch",
+      "mainClass": "com.javaoop.segitigaBintang",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeSum",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.primeSum",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeSegi3",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.primeSegi3",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch prima",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.prima",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch pecahanTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.pecahanTest",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch yyy",
+      "request": "launch",
+      "mainClass": "com.javaoop.yyy",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch aaaaaaaa",
+      "request": "launch",
+      "mainClass": "com.javaoop.aaaaaaaa",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch pecahanTest",
+      "request": "launch",
+      "mainClass": "com.javaoop.pecahanTest",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.Main",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch ikan",
+      "request": "launch",
+      "mainClass": "com.javaoop.ikan",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch nelayan",
+      "request": "launch",
+      "mainClass": "com.javaoop.nelayan",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "com.javaoop.App",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch privatePublic",
+      "request": "launch",
+      "mainClass": "com.javaoop.privatePublic",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch method",
+      "request": "launch",
+      "mainClass": "com.javaoop.method",
+      "projectName": "My Program_f5d85da2"
+    },
+    {
+      "type": "java",
+      "name": "Launch reference",
+      "request": "launch",
+      "mainClass": "com.javaoop.reference",
+      "projectName": "My Program_60ce4c96"
+    },
+    {
+      "type": "java",
+      "name": "Launch latihan2",
+      "request": "launch",
+      "mainClass": "com.javaoop.latihan2",
+      "projectName": "My Program_60ce4c96"
+    },
+    {
+      "type": "java",
+      "name": "Launch knight",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.knight",
+      "projectName": "My Program_60ce4c96"
+    },
+    {
+      "type": "java",
+      "name": "Launch segitigaBintang",
+      "request": "launch",
+      "mainClass": "com.javaoop.segitigaBintang",
+      "projectName": "My Program_60ce4c96"
+    },
+    {
+      "type": "java",
+      "name": "Launch segitigaBintang",
+      "request": "launch",
+      "mainClass": "com.javaoop.segitigaBintang",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch infiniteLoop",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.infiniteLoop",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch bank",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.bank",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch catur",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.catur",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch ikan",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.ikan",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch segitiga",
+      "request": "launch",
+      "mainClass": "com.javaoop.segitiga",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch segi3",
+      "request": "launch",
+      "mainClass": "com.javaoop.segi3",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch latihan1",
+      "request": "launch",
+      "mainClass": "com.javaoop.latihan1",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch mobil",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.TM.mobil",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch geometry_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PRAKTIKUM.geometry_1052",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch geometry_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.geometry_1052",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch geometry",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.geometry",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch weapon_1052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.weapon_1052",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch method_return",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.method_return",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh1",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh1",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh2",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh2",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch constructor",
+      "request": "launch",
+      "mainClass": "com.javaoop.constructor",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch method",
+      "request": "launch",
+      "mainClass": "com.javaoop.method",
+      "projectName": "My Program_fd4b9c4c"
+    },
+    {
+      "type": "java",
+      "name": "Launch staticVSnon_static",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.staticVSnon_static",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch BelajarFungsi",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.BelajarFungsi",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch method_static",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.method_static",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch method_return",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.method_return",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch void_learn",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.void_learn",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh2",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh2",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch contoh1",
+      "request": "launch",
+      "mainClass": "com.javaoop.materi.contoh1",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch evenOOD",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.evenOOD",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch binary",
+      "request": "launch",
+      "mainClass": "com.javaoop.java_dasar.binary",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch binary",
+      "request": "launch",
+      "mainClass": "com.javaoop.binary",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "com.javaoop.App",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch binary",
+      "request": "launch",
+      "mainClass": "binary",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch knight",
+      "request": "launch",
+      "mainClass": "com.javaoop.Java_Dasar.knight",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch inputARRAY",
+      "request": "launch",
+      "mainClass": "com.javaoop.inputARRAY",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch sumARRAY",
+      "request": "launch",
+      "mainClass": "com.javaoop.sumARRAY",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch PermutateArray",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.PermutateArray",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch kombinasi",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.kombinasi",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch knight",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.knight",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch permutasi",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.permutasi",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch binary",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.binary",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch evenOOD",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.evenOOD",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch prima",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.prima",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch bmi_Nasrul_202410101052",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.bmi_Nasrul_202410101052",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch bmi",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.bmi",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch latihan",
+      "request": "launch",
+      "mainClass": "latihan",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch latihan",
+      "request": "launch",
+      "mainClass": "com.javaoop.tugas.latihan",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch latihan",
+      "request": "launch",
+      "mainClass": "com.javaoop.latihan",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch method",
+      "request": "launch",
+      "mainClass": "com.javaoop.method",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch constructor",
+      "request": "launch",
+      "mainClass": "com.javaoop.constructor",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.Main",
+      "projectName": "My Program_b488c3d0"
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "request": "attach",
+      "name": "Attach by Process ID",
+      "processId": "${command:PickJavaProcess}"
+    },
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/app.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+    {
+      "type": "java",
+      "request": "attach",
+      "name": "Attach by Process ID",
+      "processId": "${command:PickJavaProcess}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.javaoop.Main",
+      "projectName": "My Program_f193f35f"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.learning.Main",
+      "projectName": "My Program_f193f35f"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "g:/.shortcut-targets-by-id/1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN/SIBEUX/KULIAH/00 - UNEJ/Algorithm Programming/PEMROGRAMAN/Main Program/C++/src",
+      "environment": [],
+      "program": "g:/.shortcut-targets-by-id/1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN/SIBEUX/KULIAH/00 - UNEJ/Algorithm Programming/PEMROGRAMAN/Main Program/C++/src/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
+      "console": "integratedTerminal",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

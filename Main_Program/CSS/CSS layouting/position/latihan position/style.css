@@ -1,0 +1,179 @@
+/* style */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+     *zoom: 1;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(food.png);
+}
+
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightblue;
+    border-bottom: 3px solid salmon;
+    z-index: 99;
+}
+
+.container {
+    width: 960px;
+    margin: 80px auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.youtube{
+    width: 200px;
+    height: 200px;
+    background-image: url(p.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -2000px;
+    position: absolute;
+    top: -29px;
+    right: 0px;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+li{
+    display: inline-block;
+}
+
+a:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+ul li a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero{
+    height: 320px;
+    background-image: url(1.jpeg);
+    background-size: cover;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightblue;
+}
+
+.main {
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* sidebar */
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: #333;
+}
+
+.sidebar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 12px/18px arial, sans-serif;
+    text-align: justify;
+}
+
+.main h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis a{
+    color: red
+}
+
+.main .penulis a:hover{
+    color: black;
+}
+
+.main .penulis{
+    font-size: 16px;
+    margin-top: -5px;
+    font-style: italic;
+}
+
+.main p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #333;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

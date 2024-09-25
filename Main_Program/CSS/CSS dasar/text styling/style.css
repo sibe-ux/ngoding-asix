@@ -1,0 +1,13 @@
+h1{
+    font-size: 100px;
+    color: aqua;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 100px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1ch;
+}

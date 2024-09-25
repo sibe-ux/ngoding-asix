@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+
+        .satu{
+            background-color: red;
+        }
+
+        .dua{
+            background-color: blue;
+            /* default untuk position adalah STATIC */
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        .tiga{
+            background-color: yellow;
+        }
+
+        .empat{
+            background-color: green;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+        }
+
+        .container{
+            width: 600px;
+            height: 650px;
+            border: 10px solid green;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+        <div class="empat"></div>
+    </div>
+</body>
+</html>

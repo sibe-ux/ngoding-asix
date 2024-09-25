@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube API</title>
+</head>
+<body>
+    YouTube Subscribers
+    <div id="subCount"></div>
+
+    <script>
+
+    // Get Subscribers
+    const youtubeKey = 'AIzaSyCwpaQCZhY4TO4lm1gMsJy0HaLANiuEoOo';
+    const youtubeUser = 'UCIIwrwKxcrTXlyYlRmBV7hg';
+    const subCount = document.getElementById('subCount');
+    const delay = 1000; // 10 min
+
+    let getSubscribers = () => {
+
+        fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+        .then(response => {
+            return response.json()
+        })
+        .then(data => {
+            console.log(data);
+            subCount.innerHTML = data["items"][0].statistics.subscriberCount;
+        })
+
+    }
+
+    setInterval(() => {
+        getSubscribers();
+    }, delay);
+
+    </script>
+</body>
+</html>

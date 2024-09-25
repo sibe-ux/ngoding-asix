@@ -1,0 +1,12 @@
+"Blood Colour",
+"Scar on Face",
+"Fallin'",
+"Sinking Ships",
+"Ray of Light",
+"Heavy Rain",
+"Vanishing Day",
+"Trigger",
+"Adore",
+"Clouded Sky",
+"Live for You",
+"Feedback"
