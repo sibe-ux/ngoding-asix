@@ -1,0 +1,135 @@
+
+.color-switcher{
+    position: fixed;
+    margin-top: 255px;
+    width: 145px;
+    height: 130px;
+    margin-left:-145px;
+    transition:all ease 0.3s;
+    z-index: 99;
+    background: #fff;
+    left: 0;
+    text-align: center;
+    border: solid 1px #dfdfdf;
+}
+
+.open i {
+    font-size: 25px;
+}
+.switcher-reset{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #8C8C8C !important;
+    background: 0;
+    border: 1px solid #dfdfdf !important;
+    padding: 3px 37px;
+}
+
+
+.switcher-dark, .switcher-light{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #8C8C8C !important;
+    background: 0;
+    border: 1px solid #dfdfdf;
+    padding: 3px 10px;
+}
+
+.switcher-reset:hover{
+    color: #000 !important;
+}
+
+ .switcher-dark :focus, .switcher-light:focus {
+    color: #000 !important;
+    border: 1px solid #7d7d7d !important;
+    
+}
+
+.color-switcher .open{
+    background: #fff;
+    padding: 13px 0;
+    margin-top: -1px;
+    width: 50px;
+    margin-right: -50px;
+    float: right;
+    border: solid 1px #dfdfdf;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.color-switcher h4{
+font-size: 13px;
+    font-weight: 600;
+    padding: 17px 13px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #656565;
+    height: 48px;
+}
+
+.color-switcher ul{
+    padding: 6px 12px;
+    display: inline-block;
+}
+
+.color-switcher ul li{
+    float: left;
+    list-style: none;
+}
+
+.color-switcher ul li a{
+    font-size: 20px;
+    float: left;
+    width: 29px;
+
+}
+
+.color-switcher ul li a:focus{
+    text-decoration:none;
+    outline:none;
+}
+
+
+.open-switcher{
+    margin-left:0px;
+    transition:all ease 0.3s;
+}
+
+
+.color-1{color:#ff423a !important; background: #ff423a !important;}
+.color-2{color:#ffa700 !important; background: #ffa700 !important;}
+.color-3{color:#00b4d9 !important; background: #00b4d9 !important;}
+.color-4{color:#7369b9 !important; background: #7369b9 !important;}
+.color-5{color:#e53f51 !important; background: #e53f51 !important;}
+.color-6{color:#029A83 !important; background: #029A83 !important;}
+.color-7{color:#ef3e96 !important; background: #ef3e96 !important;}
+.color-8{color:#3957b7 !important; background: #3957b7 !important;}
+.color-9{color:#0487cc !important; background: #0487cc !important;}
+.color-10{color:#734854 !important; background: #734854 !important;}
+.color-11{color:#9197a3 !important; background: #9197a3 !important;}
+.color-12{color:#fe8178 !important; background: #fe8178 !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

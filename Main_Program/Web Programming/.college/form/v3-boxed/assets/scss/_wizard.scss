@@ -1,0 +1,850 @@
+/* ==========================================================================
+multistep css
+========================================================================== */
+//mixins
+@mixin transition-mix ($property: all, $duration: 0.2s, $timing: linear, $delay: 0s) {
+    transition-property: $property;
+    transition-duration: $duration;
+    transition-timing-function: $timing;
+    transition-delay: $delay;
+}
+
+@mixin position-absolute ($top: null, $left: null, $right: null, $bottom: null) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}
+
+
+//multisteps progress styles
+.multisteps-form__progress {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    width: 300px;
+    position: sticky;
+    top: 0;
+}
+
+.multisteps-form__progress-btn {
+    position: relative;
+    color: rgba($color-secondary, .7);
+    border: none;
+    background-color: transparent;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    min-width: max-content;
+    margin-left: 32px;
+    padding-bottom: 100px;
+    z-index: 1;
+
+    span {
+        position: absolute;
+        top: 58px;
+        left: 7px;
+        color: $color-secondary;
+    }
+
+//circle decoration
+i {
+    width: $btn-circle-decor-dimensions;
+    height: $btn-circle-decor-dimensions;
+    left: 0px;
+    top: 0px;
+    margin-right: 15px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid $color-secondary;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+//line decoration
+&:after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    left: 28px;
+    display: block;
+    width: 2px;
+    height: 37px;
+    background-color: $color-secondary;
+    z-index: 1;
+}
+
+// last child - without line decoration
+&:last-child {
+
+    &:after {
+        display: none;
+    }
+}
+
+//active styles
+&.js-active {
+    color: $color-white;
+
+    span {
+        color: $color-white;
+    }
+
+    i {
+        color: $color-white;
+        border-color: $color-white;
+    }
+
+    &:after {
+        background-color: $color-white;
+    }
+}
+}
+
+//multisteps form styles
+.multisteps-form__form {
+    position: relative;
+}
+
+//multisteps panels styles
+.multisteps-form__panel {
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+
+//active panels
+&.js-active {
+    opacity: 1;
+    height: auto;
+    @include position-absolute($top: 0, $left: 0);
+    overflow: visible;
+    visibility: visible;
+}
+
+//scaleOut animation
+&[data-animation="scaleOut"] {
+    transform: scale(1.1);
+
+    &.js-active {
+        @include transition-mix;
+
+        transform: scale(1);
+    }
+}
+
+//slideHorz animation
+&[data-animation="slideHorz"] {
+    left: -50px;
+
+    &.js-active {
+        @include transition-mix($duration: .25s, $timing: cubic-bezier(0.2, 1.13, 0.38, 1.43));
+
+        left: 0;
+    }
+}
+
+//slideVert animation
+&[data-animation="slideVert"] {
+    top: 30px;
+
+    &.js-active {
+        @include transition-mix();
+
+        top: 0;
+    }
+}
+
+//fadeIn animation
+&[data-animation="fadeIn"] {
+
+    &.js-active {
+        @include transition-mix($duration: .3s);
+    }
+}
+
+//scaleOut
+&[data-animation="scaleIn"] {
+    transform: scale(.9);
+
+    &.js-active {
+        @include transition-mix;
+
+        transform: scale(1);
+    }
+}
+}
+
+
+
+/* ==========================================================================
+wizard section
+========================================================================== */
+
+.wizard-title {
+    padding-bottom: 85px;
+
+    h3 {
+        color: #5756a2;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p {
+        color: #5756a2;
+        font-size: 23px;
+        font-weight: 500;
+    }
+}
+
+.vector-img-one {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+
+%input_label {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+
+    label {
+        float: left;
+        color: $color-primary;
+        font-size: 19px;
+        text-align: right;
+        font-weight: 600;
+        width: 200px;
+        margin: 15px 30px 0px 0px;
+    }
+
+    input {
+        width: 585px;
+        height: 50px;
+        border: 3px solid #b4d4e4;
+    }
+}
+
+.wizard-v3-progress {
+    z-index: 10;
+    width: 300px;
+    right: -345px;
+    bottom: 20px;
+    position: absolute;
+
+    .progress {
+        width: 100%;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #b4c8e8;
+        position: relative;
+
+        &:before {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            background: #111;
+            position: absolute;
+            left: 30%;
+            top: 8px;
+        }
+        &:after {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            background: #111;
+            position: absolute;
+            left: 45%;
+            top: 8px;
+        }
+
+        .progress-bar {
+            border-radius: 20px;
+            background-color: #2e70ee;
+            &:after {
+                content: "";
+                width: 5px;
+                height: 5px;
+                border-radius: 100%;
+                background: #111;
+                position: absolute;
+                left: 75%;
+                top: 8px;
+            }
+        }
+    }
+
+    span {
+        color: #b5ccec;
+    }
+
+    h3 {
+        color: $color-white;
+        font-size: 23px;
+        padding: 5px 0px 10px;
+        font-weight: 700;
+    }
+}
+
+/* ==========================================================================
+wizard 1
+========================================================================== */
+
+
+.wizard-photo-area {
+    width: 190px;
+    float: left;
+    margin-left: -50px;
+    .photo-upload-text {
+        color: #8d8d8d;
+        font-size: 15px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+}
+
+.wizard-photo-upload {
+    float: left;
+
+    label {
+        padding: 8px 15px;
+        color: $color-white;
+        font-size: 13px;
+        font-weight: 600;
+        background-color: #4a6e8b;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        margin-bottom: 0;
+    }
+
+    .display-img {
+        width: 185px;
+        height: 170px;
+        overflow: hidden;
+        padding-top: 20px;
+        background-color: $color-white;
+    }
+}
+
+.wizard-form-field {
+    margin-left: 190px;
+
+    .wizard-form-input {
+        position: relative;
+        z-index: 2;
+        @extend%input_label;
+
+        .wizard-checked {
+            display: inline-block;
+            margin: 15px 50px 0px 0px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            input {
+                height: 18px;
+                width: 18px;
+            }
+
+            span {
+                font-size: 18px;
+                font-weight: 600;
+                color: $color-blackis;
+                position: relative;
+                top: -3px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .form-field-text {
+        font-size: 18px;
+        color: #848c95;
+        max-width: 625px;
+        padding-left: 230px;
+    }
+}
+
+
+/* ==========================================================================
+wizard 2
+========================================================================== */
+
+.wizard-solution-select {
+    margin: 0 auto;
+    max-width: 1090px;
+}
+
+.option_item {
+    margin: 0 auto;
+    width: 325px;
+    height: 270px;
+    position: relative;
+    transition: .3s all ease-in-out;
+
+    .name {
+        display: block;
+        color: $color-primary;
+        font-size: 23px;
+        font-weight: 600;
+    }
+}
+
+.option_item .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.option_item .option_inner {
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    border: 2px solid transparent;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        border: 2px solid #b4d4e4;
+    }
+}
+
+.option_item .option_inner .icon {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.option_item .option_inner .icon .fab {
+    font-size: 32px;
+}
+
+.option_item .option_inner .name {
+    user-select: none;
+}
+
+.option_item .checkbox:checked~.option_inner {
+    border-color: #3b5999;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.27);
+
+    &:before {
+        display: none;
+    }
+}
+
+.option_item .option_inner .tickmark {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    display: none;
+    border-radius: 100%;
+    top: -25px;
+    left: -25px;
+    ;
+    background-color: #253fa5;
+}
+
+.option_item .option_inner .tickmark:before {
+    content: "\f00c";
+    position: absolute;
+    font-size: 16px;
+    top: 12px;
+    left: 15px;
+    color: $color-white;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.option_item .checkbox:checked~.option_inner .tickmark {
+    display: block;
+}
+
+.izard-solution-select {
+    label {
+        margin-bottom: 0
+    }
+
+}
+
+.wizard-note-subject {
+    float: right;
+    z-index: 5;
+    margin-top: 30px;
+    margin-right: 25px;
+    position: relative;
+
+    .select-option-area {
+        @extend%select-caret;
+    }
+
+    .wizard-form-input {
+        margin-top: 30px;
+        position: relative;
+
+        label {
+            float: left;
+            color: $color-primary;
+            font-size: 19px;
+            text-align: right;
+            font-weight: 600;
+            width: 195px;
+            margin: 15px 30px 0px 0px;
+        }
+
+        select,
+        textarea {
+            width: 720px;
+            height: 50px;
+            padding-left: 20px;
+            -webkit-appearance: none;
+            border: 3px solid #b4d4e4;
+        }
+
+        textarea {
+            height: 170px;
+        }
+    }
+
+    .wizard-checked {
+        float: right;
+        margin-right: 40px;
+        display: inline-block;
+
+        input {
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+        }
+
+        span {
+            top: -2px;
+            color: $color-blackis;
+            font-size: 18px;
+            font-weight: 600;
+            position: relative;
+        }
+    }
+}
+
+
+.wizard-sub-text {
+    color: $color-primary;
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+wizard three
+========================================================================== */
+
+.select-caret {
+    margin-bottom: 85px;
+    @extend%select-caret;
+
+    &:after {
+        top: 35px;
+    }
+
+    select {
+        -webkit-appearance: none
+    }
+}
+
+.wizard-form-input {
+    select {
+        width: 100%;
+        height: 95px;
+        padding: 0px 40px;
+        border: 3px solid #b4d4e4;
+    }
+}
+
+.duration-box {
+    display: block;
+    width: 100%;
+    height: 185px;
+    width: 270px;
+    padding-top: 35px;
+    position: relative;
+    border: 2px solid #b4d4e4;
+
+    .title {
+        color: $color-primary;
+        display: block;
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+
+    span {
+        line-height: 1;
+        color: $color-primary;
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.duration-option {
+    position: relative;
+    margin-bottom: 0;
+
+    .d-checkbox {
+        display: none;
+    }
+
+    .checkbox-circle-tick {
+        position: absolute;
+        top: 15px;
+        right: 45px;
+
+        &:before {
+            content: '';
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            position: absolute;
+            border: 2px solid #b4d4e4;
+        }
+
+        &:after {
+            top: 5px;
+            left: 5px;
+            content: '';
+            width: 20px;
+            height: 20px;
+            display: none;
+            border-radius: 100%;
+            position: absolute;
+            background-color: #5756a2;
+        }
+    }
+
+    .d-checkbox:checked~.duration-box {
+        border: 2px solid #5756a2;
+        box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.27);
+    }
+
+    .d-checkbox:checked~.checkbox-circle-tick {
+        &:after {
+            display: block;
+        }
+        
+        &:before {
+            border-color: #5756a2;
+        }
+    }
+}
+
+
+
+.wizard-document-upload {
+    display: inline-block;
+    width: 100%;
+
+    .custom-file-input {
+        padding: 24px 20px;
+        height: auto;
+    }
+
+    .custom-file-label {
+        padding: 24px 20px;
+        height: auto;
+        border-radius: 0;
+        font-size: 20px;
+    }
+
+    label.custom-file-label {
+        padding: 24px;
+        height: auto;
+        color: #9c9c9c;
+    }
+
+    label.custom-file-label:after {
+        background: #2d35a5;
+        color: $color-white;
+        border-radius: 0;
+        padding: 24px;
+        height: 80px;
+        width: 244px;
+        text-align: center;
+    }
+}
+.custom-file-input~.custom-file-label::before {
+    content: "\f382";
+    position: absolute;
+    right: 165px;
+    font-family: 'Font Awesome 5 Free';
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    z-index: 22;
+}
+
+/* ==========================================================================
+wizard 4
+========================================================================== */
+
+#slider-service {
+    padding-right: 20px;
+}
+
+
+.service-checkbox {
+    display: none;
+}
+
+.w-service-box {
+    width: 270px;
+    height: 220px;
+    float: left;
+    margin: 15px;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    background-color: $color-white;
+    border: 3px solid #b4d4e4;
+
+    .tooltip-info {
+        &:before {
+            position: absolute;
+            content: '';
+            height: 30px;
+            width: 30px;
+            top: 15px;
+            right: 15px;
+            display: none;
+            border-radius: 100%;
+            background-color: #2540a5;
+        }
+
+        &:after {
+            position: absolute;
+            content: '\f129';
+            top: 18px;
+            color: $color-white;
+            right: 26px;
+            font-weight: 900;
+            display: none;
+            display: none;
+            font-family: 'Font Awesome 5 Free';
+        }
+    }
+
+    .service-text {
+        color: #5756a2;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .option-seclect {
+        bottom: -35px;
+        left: -4px;
+        width: 103%;
+        padding: 5px;
+        font-size: 16px;
+        display: none;
+        font-weight: 500;
+        position: absolute;
+        background-color: #2540a5;
+
+        span {
+            color: $color-white;
+        }
+    }
+}
+
+.service-checkbox:checked~.w-service-box .tooltip-info:before,
+.service-checkbox:checked~.w-service-box .tooltip-info:after {
+    display: block;
+}
+
+.service-checkbox:checked~.w-service-box {
+    border: 3px solid #2540a5;
+}
+
+.service-checkbox:checked~.w-service-box .option-seclect {
+    display: block;
+}
+
+.slick-dots li.slick-active {
+    width: 35px;
+    height: 10px;
+    background: #2c39a4;
+    border-radius: 5px;
+}
+
+.slick-dots li {
+    width: 15px;
+    height: 10px;
+    background: #ccc;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    button {
+        font-size: 0;
+        visibility: hidden;
+    }
+}
+
+/* ==========================================================================
+wizard 5
+========================================================================== */
+
+.wizard-day-item {
+    width: 100%;
+    display: inline-block;
+}
+
+.social-media-find {
+    display: block;
+
+    .social-find-caret {
+        @extend%select-caret;
+
+        &:after {
+            top: 35px;
+            right: 20px;
+        }
+    }
+
+    select {
+        width: 100%;
+        height: 95px;
+        padding-left: 30px;
+        -webkit-appearance: none;
+        border: 2px solid #b4d4e4;
+    }
+}
+

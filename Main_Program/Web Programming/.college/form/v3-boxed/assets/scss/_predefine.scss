@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $body-color;
+    font-family: $body-font;
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background-color: $base-color;
+}
+
+::selection {
+    color: #ffffff;
+    background-color: $base-color;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background-color: $base-color;
+}
+
+
+
+// global settings
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .3s all ease-in-out;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.form-control:focus,
+button:visited,
+button.active,
+button:hover,
+button:focus,
+input:visited,
+input.active,
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus,
+a:hover,
+a:focus,
+a:visited,
+a.active,
+select,
+select:hover,
+select:focus,
+select:visited {
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+.relative-position {
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: $heading;
+}
+
+// default pre style
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pb-200 {
+    padding-bottom: 200px;
+}
+.mb-60 {
+    margin-bottom: 60px !important;
+}
+
+.mb-85 {
+    margin-bottom: 85px !important;
+}
+.mt-60 {
+    margin-top: 60px !important;
+}
+.wizard-forms {
+    padding: 90px 180px;
+}
+.section-padding {
+    padding: 90px 60px;
+}
+.wrapper {
+    margin: 50px auto;
+    max-width: 1680px;
+    background-color: $color-bg;
+    box-shadow: 0px 5px 65px 0px rgba(0, 0, 0, 0.29);
+}
+
+.boxed-version {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.dark-version.dark-version {
+    background-color: $color-blackis;
+
+    label, p, span {
+        color: $color-white !important;
+    }
+
+    button, input, optgroup, select, textarea, .wrapper {
+        background-color: $color-blackis !important;
+    }
+
+}
+
+.steps-area-fixed.steps-area-fixed {
+    position: fixed;
+    width: 25%;
+}
+
+.inner {
+    width: 100%;
+    height: auto;
+}
+
+/* ============================================================================ */
+/*   step
+/* ============================================================================ */
+.steps {
+    background-color: #263ea5;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+
+    ul {
+        padding-left: 70px;
+    }
+}
+
+.steps li {
+    position: relative;
+
+    &:before {
+        content: '';
+        top: 55px;
+        width: 240px;
+        left: 0px;
+        height: 25px;
+        color: #5065ca;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 1.5;
+        position: absolute;
+    }
+
+
+    &:after {
+        top: 8px;
+        left: 15px;
+        z-index: -1;
+        color: #6076d1;
+        font-size: 17px;
+        content: '\f007';
+        font-weight: 900;
+        position: absolute;
+        font-family: 'Font Awesome 5 Free';
+    }
+
+    a {
+        width: 45px;
+        color: #fff;
+        height: 45px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 45px;
+        border-radius: 50%;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        border: 2px solid #6076d1;
+
+        &:after {
+            width: 2px;
+            left: 18px;
+            content: '';
+            height: 33px;
+            bottom: -80px;
+            position: absolute;
+            background-color: #6076d1;
+        }
+    }
+
+    .number {
+        display: none;
+    }
+
+    &.first {
+        a {
+            border: 2px solid #fff;
+        }
+    }
+
+    &.last {
+        a {
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    &.checked,
+    &.current {
+        &:after {
+            color: #fff;
+        }
+
+        &:before {
+            color: #fff;
+        }
+
+        a {
+            border: 2px solid #fff;
+
+            &:after {
+                background-color: #fff;
+            }
+        }
+    }
+
+}
+// line
+.line {
+    width: 495px;
+    height: 3px;
+    left: 28.4%;
+    height: 3px;
+    background: #f1f1f2;
+    position: relative;
+    top: 0px;
+    margin: 5px 0;
+    &.line2 {
+        width: 100%;
+        left: 0;
+    }
+}
+
+// next prev action button
+// ========================================
+.actions {
+    right: 7%;
+    position: absolute;
+    bottom: 50px;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        margin-right: 20px;
+
+        span {
+            height: 55px;
+            width: 180px;
+            color: #fff;
+            display: block;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 0px;
+            line-height: 55px;
+            text-align: center;
+            background-color: #72bb4c;
+            cursor: pointer;
+        }
+        .js-btn-prev {
+            background: #b4d4e4 !important;
+        }
+
+        button {
+         background: #2c3ca6;
+         border: 0;
+         padding: 15px 40px;
+         margin-left: 18px;
+         font-size: 18px;
+         color: #fff;
+         height: 55px;
+     }
+
+
+
+     &:last-child {
+        margin-right: 0
+    }
+
+
+    &[aria-disabled="true"] {
+        span {
+            opacity: 0;
+            transition: all 1s;
+        }
+    }
+
+    &[aria-disabled="false"] {
+        &~li {
+            span {
+                background-color: #72bb4c;
+                color: #fff;
+
+                &:hover {
+                    background-color: #72bb4c;
+                }
+            }
+        }
+    }
+}
+}
+
+
+// checkbox options
+// ========================================
+.wizard-checkbox-option {
+    li {
+        padding-top: 10px;
+        min-width: 25%;
+        float: left;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 60px;
+        position: relative;
+        display: inline-block;
+    }
+}
+
+.block-option {
+    input {
+        display: none;
+    }
+
+    .checkbox-tick {
+        position: relative;
+
+        &:before {
+            top: 2px;
+            left: -48px;
+            color: #5756a2;
+            content: "\f00c";
+            font-size: 16px;
+            font-weight: 900;
+            display: none;
+            position: absolute;
+            font-family: 'Font Awesome 5 Free';
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            height: 38px;
+            width: 38px;
+            top: -5px;
+            left: -60px;
+            border: 2px solid #b4d4e4;
+        }
+    }
+
+    .checked-checkbox:checked~.checkbox-tick {
+        &:before {
+            display: block;
+        }
+
+        &:after {
+            border: 2px solid #5756a2;
+            box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.17);
+        }
+    }
+}
+
+
+.checkbox-circle {
+    position: relative;
+    margin: 0 !important;
+    padding-left: 40px;
+    width: inherit !important;
+    text-align: left !important;
+
+    label {
+        cursor: pointer;
+        color: #999;
+        font-size: 13px;
+        line-height: 1.9;
+        transform: translateY(-5px);
+
+        a {
+            color: #6d7f52;
+
+            &:hover {
+                color: #89b843;
+            }
+        }
+    }
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        left: 0;
+    }
+
+    input:checked~.checkmark:after {
+        display: block;
+    }
+
+    input:checked~.checkmark:before {
+        content: "\f00c";
+        top: 0px;
+        left: 3px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .checkmark {
+        position: absolute !important;
+        top: 3px !important;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 1px solid #999;
+
+        &:after {
+            content: "";
+            top: -1px;
+            left: -1px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #49cc2a;
+            position: absolute;
+            display: none;
+        }
+
+    }
+}
+
+
+%select-caret {
+    position: relative;
+
+    &:after {
+        top: 12px;
+        right: 15px;
+        content: '\f0d7';
+        font-weight: 900;
+        position: absolute;
+        font-family: 'Font Awesome 5 Free';
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        background-color: #e5e4e4;
+        border-radius: 100%;
+        text-align: center;
+
+    }
+}

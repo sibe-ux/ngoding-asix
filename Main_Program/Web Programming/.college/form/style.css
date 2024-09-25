@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    padding: 30px 50px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group.required .control-label:after {
+    content: "  *";
+    color: red;
+}
+
+button{
+    margin-right: 15px;
+}

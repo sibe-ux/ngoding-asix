@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(228, 220, 208);
+}
+
+header {
+    box-sizing: border-box;
+    background: #429dec;
+    padding-left: 20px;
+    display: table;
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: #333;
+}
+
+.footer .copy{
+    font-size: 15px;
+    color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+}
+
+.content{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+.satu{
+    background-color: aliceblue;
+    width:600px;
+    height: 280px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dua{
+    background-color: aliceblue;
+    width:600px;
+    height: 280px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+}
+
+header span{
+    font-style: italic;
+}
+
+.menu {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.menu ul li a{
+    color: aliceblue;
+    margin: 10px;
+}

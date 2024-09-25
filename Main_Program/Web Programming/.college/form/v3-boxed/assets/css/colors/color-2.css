@@ -1,0 +1,56 @@
+.wizard-part-title h3,
+.steps li.current:before,
+.steps li.checked:before,
+.multisteps-form__progress-btn.js-active,
+.wizard-content-item h2,
+.wizard-content-item p,
+.badge-selection span,
+.badge-selection h3,
+.wizard-form-input input::-webkit-input-placeholder,
+.wizard-option-list li .option-item-list select,
+.wizard-option-list .upload-araa .upload-text span,
+.wizard-option-list .upload-araa .upload-option label,
+.wizard-option-list .texable-option,
+.wizard-identity .upload-option label,
+.identity-option li,
+.wizard>.steps li.checked a:after,
+.wizard>.steps li.current a:after,
+.n-summary span,
+.n-checked span,
+.n-select-option select,
+.wizard-option-list li:before,
+.wizard-option-list .taxable-area .checkbo-box-border:before,
+.multisteps-form__progress-btn.js-active:before,
+.plan-icon-text .plan-icon i,
+.plan-icon-text:before,
+.n-activity .n-title {
+    color: #ffa700 !important;
+}
+
+
+.actions li span,
+.actions li button,
+.wizard-progress .progress .progress-bar,
+.has-float-label i,
+.service-check-option span:after,
+.identity-option li label input[type="checkbox"]:checked+.checkmark,
+.steps-area .steps li.js-active span,
+.steps-area .steps li span:after,
+.budget-area .opti-list li.active:after,
+.steps li.current:after,
+.steps li.checked:after {
+    background-color: #ffa700 !important;
+}
+
+
+.wizard>.steps li.checked a,
+.wizard>.steps li.current a,
+.steps-area .steps li.js-active:before,
+.multisteps-form__progress-btn.js-active:before,
+.form-inner-area input:focus,
+.budget-area .opti-list li.active,
+.services-select-option li.active:after,
+.services-select-option li.active,
+.budget-area .opti-list li.active:after {
+    border-color: #ffa700 !important;
+}

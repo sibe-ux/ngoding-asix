@@ -1,0 +1,514 @@
+@media screen and (max-width: 1500px) {
+	.wrapper {
+		margin: 0 auto;
+	}
+
+	.multisteps-form__progress-btn {
+		padding-bottom: 85px;
+	}
+
+	.multisteps-form__progress {
+		padding-top: 35px;
+	}
+
+	.wizard-forms {
+		transform: scale(0.90);
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	.wizard-v3-progress {
+		right: -375px;
+		bottom: -40px;
+	}
+
+	.wizard-forms {
+		padding: 60px 30px;
+	}
+
+	.wizard-form-field .wizard-form-input input {
+		width: 450px;
+	}
+
+	.wizard-form-field .wizard-form-input .wizard-checked span {
+		margin-right: 5px;
+	}
+
+	.wizard-form-field .form-field-text {
+		padding-left: 0;
+	}
+
+	.wizard>.steps ul {
+		padding-left: 20px;
+	}
+
+	.line {
+		width: 450px;
+		left: 29.1%;
+	}
+
+	.option_item {
+		width: 275px;
+	}
+
+	.wizard-note-subject .wizard-form-input select,
+	.wizard-note-subject .wizard-form-input textarea {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.wizard-note-subject .wizard-form-input label {
+		text-align: left;
+	}
+
+	.vector-img-one {
+		position: absolute;
+		bottom: -60px;
+		left: 0px;
+	}
+
+	.wizard-note-subject .select-option-area:after {
+		top: 55px;
+	}
+
+
+}
+
+@media screen and (max-width: 1199.98px) {
+	.pb-200 {
+		padding-bottom: 270px;
+	}
+
+	.pb-100 {
+		padding-bottom: 100px;
+	}
+
+	.mb-60 {
+		margin-bottom: 20px !important;
+	}
+
+	.mb-85 {
+		margin-bottom: 35px !important;
+	}
+
+	.mt-60 {
+		margin-top: 20px !important;
+	}
+
+	.wizard-forms {
+		transform: scale(0.90);
+		padding: 0;
+	}
+
+	.multisteps-form__progress {
+		transform: scale(0.90);
+		width: 255px;
+	}
+
+	.multisteps-form__progress-btn {
+		margin-left: 15px;
+	}
+
+	.wizard-form-field .wizard-form-input input {
+		width: 100%;
+	}
+
+	.wizard-form-field .wizard-form-input label {
+		width: 100%;
+		text-align: left;
+	}
+
+	.w-service-box {
+		width: 250px;
+	}
+
+	.wizard-form-field .wizard-form-input {
+		display: inline-block;
+	}
+
+	.line {
+		width: 425px;
+		left: 14.4%;
+	}
+
+	.option_item {
+		width: 255px;
+	}
+
+	.wizard-v3-progress {
+		width: 260px;
+		right: -317px;
+		bottom: -40px;
+
+		h3 {
+			font-size: 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.pb-200 {
+		padding-bottom: 100px;
+	}
+	.wrapper {
+		box-shadow: none;
+	}
+
+	.multisteps-form__progress {
+		width: 245px;
+	}
+
+	.line {
+		width: 520px;
+		left: 0%;
+	}
+
+	.wizard-title h3 {
+		font-size: 32px;
+	}
+
+	.wizard-title p {
+		font-size: 20px;
+	}
+
+	.duration-box {
+		height: 185px;
+		width: 205px;
+	}
+
+	.wizard-v3-progress {
+		width: 250px;
+		right: -305px;
+	}
+
+	.vector-img-one {
+		position: absolute;
+		bottom: -38px;
+		left: -20px;
+	}
+
+	.wizard>.steps li.checked a:after,
+	.wizard>.steps li.current a:after {
+		display: none;
+	}
+
+	.w-service-box {
+		width: 230px;
+	}
+
+}
+
+@media screen and (max-width: 991.98px) {
+	.pb-200 {
+		padding-bottom: 80px;
+	}
+	.wizard-form-field {
+		margin-left: 0;
+	}
+
+	.wrapper {
+		display: block !important;
+	}
+
+	.form-area,
+	.multisteps-form__form {
+		width: 100% !important;
+	}
+
+	.wizard>.steps {
+		width: 100% !important;
+		position: static !important;
+		position: static;
+	}
+
+	.wizard-note-subject {
+		float: none;
+		z-index: 5;
+		margin-top: 30px;
+		margin-right: 0;
+		position: relative;
+	}
+
+	.multisteps-form__progress {
+		display: flex;
+		width: 100%;
+		padding-bottom: 0;
+	}
+
+	.multisteps-form__progress-btn {
+		width: 25%;
+		text-align: center;
+	}
+
+	.multisteps-form__progress-btn {
+		padding-bottom: 35px;
+	}
+
+	.multisteps-form__progress-btn:after {
+		content: "";
+		position: absolute;
+		top: 28%;
+		left: 140px;
+		display: block;
+		width: 35px;
+		height: 1px;
+		background-color: #6076d1;
+		z-index: 1;
+	}
+
+	.multisteps-form__progress-btn span {
+		visibility: hidden;
+	}
+
+	.multisteps-form__form {
+		min-height: inherit;
+	}
+
+	.multisteps-form__progress-btn {
+		display: inline-block;
+	}
+
+	.wizard>.steps li a:after {
+		display: none;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.wizard>.steps li.checked:before,
+	.wizard>.steps li.current:before {
+		display: none;
+	}
+
+	.wizard>.steps li:before {
+		display: none;
+	}
+
+	.wizard>.steps li .number {
+		display: block;
+	}
+
+	.wizard>.steps ul {
+		text-align: center;
+
+		li {
+			padding-bottom: 50px;
+		}
+	}
+
+	.vector-img-one {
+		display: none
+	}
+
+
+	.wizard-v3-progress {
+		position: static;
+		width: 100%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+
+		span {
+			color: #000;
+		}
+
+		h3 {
+			color: #263ea5;
+		}
+	}
+
+	.wizard-title {
+		padding-bottom: 30px;
+	}
+
+	.wizard-day-item {
+		margin-bottom: 0;
+	}
+
+	.wizard-photo-area {
+		float: none;
+		text-align: center;
+		margin: auto;
+	}
+
+	.option_item {
+		width: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.duration-box {
+		width: 100%;
+	}
+
+	.duration-option {
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.wizard-day-option li {
+		width: 100%;
+	}
+
+	.actions {
+		right: inherit;
+		left: 50%;
+		transform: translateX(-50%);
+		position: absolute;
+		bottom: 30px;
+	}
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+	.wizard-forms {
+		transform: scale(0.90);
+		overflow-x: hidden;
+	}
+
+	.multisteps-form__panel {
+		padding: 0 30px;
+	}
+
+	.pb-100 {
+		padding-bottom: 50px;
+	}
+
+	.pb-200 {
+		padding-bottom: 70px;
+	}
+
+	.wizard-forms {
+		padding: 20px;
+	}
+
+	.wizard-document-upload label.custom-file-label:after {
+		background: #2d35a5;
+		color: #fff;
+		border-radius: 0;
+		padding: 18px;
+		height: 50px;
+		width: 105px;
+		text-align: center;
+	}
+
+	.custom-file-input ~ .custom-file-label::before {
+		right: 72px;
+		top: 13px;
+		font-size: 16px;
+	}
+
+	.multisteps-form__progress-btn {
+		margin-left: 20px;
+		padding-bottom: 50px;
+
+		&:after {
+			display: none;
+		}
+	}
+
+	.actions {
+		position: static;
+		transform: inherit;
+	}
+
+
+	button.slick-arrow {
+		border: none;
+		background: #72bb4c;
+		color: #fff;
+		width: 90px;
+	}
+
+}
+
+@media screen and (max-width: 575.98px) {
+	.wizard-forms {
+		transform: scale(1);
+		padding: 20px 0;
+	}
+
+	.multisteps-form__progress-btn i {
+		margin-right: 10px;
+	}
+	.steps li {
+		margin-right: 10px;
+	}
+
+	.wizard-title h3 {
+		font-size: 25px;
+		padding-bottom: 20px;
+	}
+
+	.wizard-title p {
+		font-size: 16px;
+	}
+
+	.actions li:first-child a {
+		width: 110px;
+	}
+
+	.wizard-document-upload label.custom-file-label {
+		padding: 17px;
+		font-size: 10px;
+	}
+	.wizard-document-upload .custom-file-input {
+		padding: 12px 20px;
+		height: auto;
+	}
+
+	.multisteps-form__progress-btn {
+		margin-left: 0px;
+		padding-bottom: 30px;
+	}
+
+	.multisteps-form__panel {
+		padding: 0 15px;
+	}
+
+	.w-service-box {
+		width: 235px;
+	}
+
+	.social-media-find select {
+		height: 55px;
+	}
+
+	.social-media-find .social-find-caret:after {
+		top: 15px;
+	}
+	.wizard-checkbox-option li {
+		display: block;
+		width: 100%;
+	}
+
+	.wizard-photo-area {
+		margin-left: 0;
+	}
+	.wizard-v3-progress {
+		margin-bottom: 50px;
+		margin-top: 40px;
+	}
+	#slider-service {
+		margin-bottom: 40px;
+	}
+
+	button.slick-prev.slick-arrow {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	.actions {
+		li {
+			span {
+				height: 50px;
+				width: 110px;
+				font-size: 17px;
+				line-height: 50px;
+			}
+		}
+	}
+}
