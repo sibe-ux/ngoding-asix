@@ -1,0 +1,14 @@
+{
+   "Data Barang yang Belum Dikirim": [
+      {
+         "Nama Barang": "sapu",
+         "Berat Barang": "3",
+         "Nilai Barang": "5"
+      },
+      {
+         "Nama Barang": "laptop",
+         "Berat Barang": "2",
+         "Nilai Barang": "150"
+      }
+   ]
+}
