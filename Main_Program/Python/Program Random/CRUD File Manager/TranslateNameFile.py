@@ -3,18 +3,22 @@ import re
 
 # Daftar nama file baru tanpa nomor urut dan waktu
 new_names = [
-"Blood Colour [Japanese Ver.]",
-"Scar on Face [Japanese Ver.]",
-"Fallin' [Japanese Ver.]",
-"Sinking Ships [Japanese Ver.]",
-"Ray of Light [Japanese Ver.]",
-"Heavy Rain [Japanese Ver.]",
-"Vanishing Day [Japanese Ver.]",
-"Trigger [Japanese Ver.]",
-"Adore [Japanese Ver.]",
-"Clouded Sky [Japanese Ver.]",
-"Live for You [Japanese Ver.]",
-"Feedback"
+"Yuru Camp no Theme",
+"SHINY DAYS",
+"Camp-jou no Theme ~Motosuko~",
+"No-cle no Jikan (Wachawacha!)",
+"Solo Camp no Susume",
+"Camp-jou no Theme ~Fumoto~",
+"Oshaberi to Mug Cup",
+"Camp-jou no Theme ~Takabocchi, Eastwood~",
+"No-cle no Jikan (Wacha,,,)",
+"Camp-jou no Theme ~Shibireko~",
+"Camp Ikou yo!",
+"No-cle no Jikan (Wachawachawacha!!)",
+"Camp-jou no Theme ~Jinbagatayama~",
+"Odoro yo Folk Dance",
+"Camp-jou no Theme ~Asagiri Kougen~",
+"Fuyubiyori"
 
 ]
 
